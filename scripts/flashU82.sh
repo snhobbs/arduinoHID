@@ -4,4 +4,4 @@ printf "\nIs device reset? 1/0: "
 read -r resp
 sudo dfu-programmer at90usb82 erase
 sudo dfu-programmer at90usb82 flash $1
-sudo dfu-programmer at90usb82 reset 
+sudo dfu-programmer at90usb82 reset

@@ -13,3 +13,10 @@ WARNING: for an atmega8u2 you have to use at90usb82 as the chip name.
 Run scripts make_8U2_Arduino.sh and  make_8U2_Keyboard.sh to flash the firmware
 
 The arduino sketch is included under sketches
+
+
+RESOURCES:
+HID table: http://www.freebsddiary.org/APC/usb_hid_usages.php
+DFU programming: https://www.arduino.cc/en/Hacking/DFUProgramming8U2
+Arduino HID Keyboard Source: hunt.net.nz/users/darran/
+LUFA project: http://www.fourwalledcubicle.com/LUFA.php
